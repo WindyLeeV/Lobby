@@ -198,9 +198,9 @@ main section{
 
 .tech_content{
     background-color: #cdcbcb57;
-    height: 80%;
-    width: 90%;
-    margin: 10px;
+    height: auto;
+    width: auto;
+    margin: 15px;
     padding: 10px;
     margin-left: 0;
     border-radius: 5px;

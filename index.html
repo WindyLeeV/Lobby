@@ -87,11 +87,11 @@
             <h2 class="title">Tech Stack</h2>
             <div class="row">
                 <div class="col-m-6" id="tech">
-                    <el-button type = "primary" round v-on:click="Fe">Front-end</el-button>
+                    <!-- <el-button type = "primary" round v-on:click="Fe">Front-end</el-button>
                     <el-button type = "primary" round v-on:click="Be">Back-end</el-button>
-                    <el-button type = "primary" round v-on:click="Un3">Unity3D</el-button>
+                    <el-button type = "primary" round v-on:click="Un3">Unity3D</el-button> -->
                     <transition name="el-fade-in-linear">
-                        <div class="tech_content" v-show="Front">
+                        <div class="tech_content">
                             <h3>Front-end</h3>
                             <p>Familiar with basic Html, CSS, JavaScript web construction (See in Github)</p>
                             <p>Familiar with using VUE framework to construct and maintain medium-large website project.</p>
@@ -99,7 +99,7 @@
                         </div>
                     </transition>
                     <transition name="el-fade-in-linear">
-                        <div class="tech_content" v-show="Back">
+                        <div class="tech_content">
                             <h3>Back-end</h3>
                             <p>Familiar with basic algorithms for Sorting, Ordering and Trees</p>
                             <p>Capable of using Java to implement these algorithms</p>
@@ -107,7 +107,7 @@
                         </div>
                     </transition>
                     <transition name="el-fade-in-linear">
-                        <div class="tech_content" v-show="Unity">
+                        <div class="tech_content">
                             <h3>Unity3D</h3>
                             <p>Familiar with basic UI implementation</p>
                             <p>Familiar with interaction of the scene</p>
@@ -194,7 +194,7 @@
 <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
 <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 
-<!-- VUE component -->
+<!-- VUE component
 <script>
     // Interaction in tech stack block
     const tech = new Vue(
@@ -240,6 +240,6 @@
         }
       },
     })
-</script>
+</script> -->
 </body>
 </html>
