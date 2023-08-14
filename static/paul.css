@@ -196,6 +196,15 @@ main section{
     transition: transform .3s;
 }
 
+.tech_content{
+    background-color: #cdcbcb57;
+    height: 80%;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0;
+    border-radius: 5px;
+}
 
 /* 3 - 页尾
 -------------------------------- */
