@@ -13,7 +13,7 @@ a{ color: #c40b00; }
 /* - 侧边栏 */
 .sidebar{
     top: 0;
-    left: 0;
+    left: 1;
     bottom: 0;
     color: #fff;
     width: 250px;
