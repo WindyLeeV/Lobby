@@ -107,7 +107,7 @@ main section{
 #info{ background: url(img/bg-1.png) fixed; }
 #skills{ background: #f8bd24; }
 #works{ background: url(img/bg-2.png) fixed; }
-#team{ background: url(img/bg-3.png) fixed; }
+#tech{ background: url(img/bg-3.png) fixed; }
 
 .title{
     margin-bottom: 1em;
@@ -130,7 +130,7 @@ main section{
 #story .title:before{
     content: "\f0b1";
 }
-#team .title:before{
+#tech .title:before{
     content: "\f024";
 }
 
@@ -196,6 +196,15 @@ main section{
     transition: transform .3s;
 }
 
+.tech_content{
+    background-color: #cdcbcb57;
+    height: auto;
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 0;
+    border-radius: 5px;
+}
 
 /* 3 - 页尾
 -------------------------------- */

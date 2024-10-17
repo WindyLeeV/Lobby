@@ -9,6 +9,7 @@
     <link href="static/kico.css" rel="stylesheet" type="text/css"/>
     <link href="static/paul.css" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
 </head>
 <body>
@@ -19,10 +20,10 @@
     <nav class="nav">
         <a href="#info">Information</a>
         <a href="#skills">Skills</a>
-        <a href="#works">Projects</a>
+        <a href="#tech">Tech Stack</a>
         <a href="#story">Experiences</a>
-        <a href="#team">Tech Stack</a>
-        <a href="www.mihoyo.com">Resume Download (icon) <icon="download"></icon></a>
+        <a href="#works">Projects</a>
+        <a href="static/CV Ver2.0.pdf" download="static/CV Ver2.0.pdf">Resume Download <i class="el-icon-download" style = "padding-left: 5px;"></i></a>
     </nav>
 </aside>
 <main>
@@ -31,18 +32,18 @@
             <h2 class="title">Who is WindyLee?</h2>
             <div class="row">
                 <div class="col-l-4">
-                    <p>Name: Vince Lee</p>
-                    <p>School: XJTLU</p>
-                    <p>Aim Career: Software Engineer</p>
+                    <p>Name:  Vince Lee</p>
+                    <p>School:  XJTLU</p>
+                    <p>Aim Career:  Full Stack Engineer</p>
                 </div>
                 <div class="col-l-4">
                     <p>Wechat：wxid_i5eks3igedrf22</p>
                     <p>GitHub：<a href="https://github.com/WindyLeeV">WindyLeeV</a></p>
-                    <p>BiliBili：<a href="https://space.bilibili.com/168742719?spm_id_from=333.1007.0.0">@Vince_Windy</a></p>
                     <p>E-mail：<a href="mailto:1274687351@qq.com">1274687351@qq.com</a></p>
                 </div>
                 <div class="col-l-4">
-                    <p>Tell you a secret:<br><br> No matter you wanna design a fantastic application or game, don't hesitate to join me!</p>
+                    <p>Tell you a secret:</p>
+                    <p>No matter you wanna design a fantastic application or game, don't hesitate to join me!</p>
                 </div>
             </div>
         </div>
@@ -56,7 +57,7 @@
                         <i class="fa fa-html5"></i>
                     </div>
                     <div class="skills-title">
-                        <h3>VUE 2&3</h3>
+                        <h3>Front-end</h3>
                         <p>Familiar with implementing basic web design and interaction by VUE2 / 3</p>
                     </div>
                 </div>
@@ -65,8 +66,8 @@
                         <i class="fa fa-css3"></i>
                     </div>
                     <div class="skills-title">
-                        <h3>Unity 3D</h3>
-                        <p>Capable of designing a interactive and dynamic game</p>
+                        <h3>Back-end</h3>
+                        <p>Capable of designing algorithms and programs in Java, Python</p>
                     </div>
                 </div>
                 <div class="col-s-6 col-m-4 center-fixed">
@@ -74,9 +75,77 @@
                         <i class="fa fa-code"></i>
                     </div>
                     <div class="skills-title">
-                        <h3>AI Tech</h3>
-                        <p>Using chatGPT and stable diffusion to design models and assist coding.</p>
+                        <h3>Unity 3D</h3>
+                        <p>Capable of designing a interactive and dynamic game</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-d" id="tech">
+        <div class="wrap">
+            <h2 class="title">Tech Stack</h2>
+            <div class="row">
+                <div class="col-m-6" id="tech">
+                    <!-- <el-button type = "primary" round v-on:click="Fe">Front-end</el-button>
+                    <el-button type = "primary" round v-on:click="Be">Back-end</el-button>
+                    <el-button type = "primary" round v-on:click="Un3">Unity3D</el-button> -->
+                    <transition name="el-fade-in-linear">
+                        <div class="tech_content">
+                            <h3>Front-end</h3>
+                            <p>Familiar with basic Html, CSS, JavaScript web construction (See in Github)</p>
+                            <p>Familiar with using VUE framework to construct and maintain medium-large website project.</p>
+                            <p>Two months' internship in CISDI Info</p>
+                        </div>
+                    </transition>
+                    <transition name="el-fade-in-linear">
+                        <div class="tech_content">
+                            <h3>Back-end</h3>
+                            <p>Familiar with basic algorithms for Sorting, Ordering and Trees</p>
+                            <p>Capable of using Java to implement these algorithms</p>
+                            <p>Three years of academic learning</p>
+                        </div>
+                    </transition>
+                    <transition name="el-fade-in-linear">
+                        <div class="tech_content">
+                            <h3>Unity3D</h3>
+                            <p>Familiar with basic UI implementation</p>
+                            <p>Familiar with interaction of the scene</p>
+                            <p>Several personal objects listed below</p>
+                        </div>
+                    </transition>
+                    <!-- <el-button class="stashes">Back-end: MySQL, Python, Java, C++ (3 years' academic learning)</el-button><br>
+                    <el-button class="stashes">Unity3D: C# (Experiences of several programs)</el-button><br>
+                    <el-button class="stashes">AI: Stable Diffusion for assests making (Well, just a little understanding)</el-button><br> -->
+                </div>
+                <div class="col-m-6 center">
+                    <img src="static/img/Source.png" class="General-Img"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class="wrap">
+            <h2 class="title">My Experiences</h2>
+            <div class="row">
+                <div class="col-m-8">
+                    <ul class="timeline">
+                        <li>2021.09: Being a university student in XJTLU</li>
+                        <li>2022.02: Major in learning Information Computer Science</li>
+                        <li>2022.06: Being a intern in investment bank. Learning the prospect of Computer science and stock quantitative</li>
+                        <li>2022.08: Publishing the first game talk show video for <a> Far Away </a></li>
+                        <li>2022.04: Complete my first Unity game: <a>Flappy Bird</a></li>
+                        <li>2023.06: Being an intern of  <a href="http://www.cisdigroup.com.cn/html/2/abou/">CISDI Info (Central Enterprises)</a></li>
+                        <li>2023.07: Complete my  <a>first web</a>  (During CISDI internship)</li>
+                        <li>2023.08: Complete a <a>Unity 3D Data Visualisation project</a> for CISDI Info</li>
+                        <li>2023.08: Being an intern of <a href="https://www.boc.cn/">Bank of China (Chong Qing)</a></li>
+                        <li>2023.10: Landlord, my first team based card game developed by Java</li>
+                        <li>2023.12: Indivisual 3D animation: My bookshelf</li>
+                        <li>2024.01: IELT test overall 7.0 in the first attempt and being an intern in <a href="https://investor.neworiental.org/zh-hans/node"> XDF </a></li>
+                    </ul>
+                </div>
+                <div class="col-m-4 center-fixed">
+                    <img src="static/img/Running.png" class="General-Img"/>
                 </div>
             </div>
         </div>
@@ -87,25 +156,37 @@
             <div class="row">
                 <div class="col-s-6">
                     <div class="works-item">
-                        <img src="static/img/works/First Web.png"/>
+                        <img src="static/img/works/First Web.png" class="General-Img"/>
                         <p>WindyLeeV 2023 First Web</p>
                     </div>
                 </div>
                 <div class="col-s-6">
                     <div class="works-item">
-                        <img src="static/img/works/CISDI U3D.png"/>
+                        <img src="static/img/works/LandLord.png" class="General-Img"/>
+                        <p>Landlord: A traditional Chinese card game</p>
+                    </div>
+                </div>
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="static/img/works/Shelf.png" class="General-Img"/>
+                        <p>3D Animation: My bookshelf</p>
+                    </div>
+                </div>
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="static/img/works/CISDI U3D.png" class="General-Img"/>
                         <p>Unity 3D Data Visualisation CISDI (Put game here?)</p>
                     </div>
                 </div>
                 <div class="col-s-6">
                     <div class="works-item">
-                        <img src="static/img/works/Flappy Bird Actual.png"/>
+                        <img src="static/img/works/Flappy Bird Actual.png" class="General-Img"/>
                         <p>Unity game: Flappy Bird (Put the game into this Website)</p>
                     </div>
                 </div>
                 <div class="col-s-6">
                     <div class="works-item">
-                        <img src="static/img/works/HeadPhone Girl.png"/>
+                        <img src="static/img/works/HeadPhone Girl.png" />
                         <p>First character generated by Stable Diffusion (AI)</p>
                     </div>
                 </div>
@@ -118,49 +199,62 @@
             </div>
         </div>
     </section>
-    <section id="story">
-        <div class="wrap">
-            <h2 class="title">My Experiences</h2>
-            <div class="row">
-                <div class="col-m-8">
-                    <ul class="timeline">
-                        <li>2021.09: Being a student of XJTLU</li>
-                        <li>2022.02: Major in learning Information Computer Science</li>
-                        <li>2022.06: Being a intern in investment bank. Learning the prospect of Computer science and stock quantitative</li>
-                        <li>2022.08: Publishing the first game talk show video for <a> Far Away </a></li>
-                        <li>2022.04: Complete my first Unity game: <a>Flappy Bird</a></li>
-                        <li>2023.06: Being an intern of  <a href="http://www.cisdigroup.com.cn/html/2/abou/">CISDI Info (Central Enterprises)</a></li>
-                        <li>2023.07: Complete my  <a>first web</a>  (During CISDI internship)</li>
-                        <li>2023.08: Complete a <a>Unity 3D Data Visualisation project</a> for CISDI Info</li>
-                        <li>2023.08: Being an intern of <a href="https://www.boc.cn/">Bank of China (Chong Qing)</a></li>
-                    </ul>
-                </div>
-                <div class="col-m-4 center-fixed">
-                    <img src="static/img/story.png"/>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-d" id="team">
-        <div class="wrap">
-            <h2 class="title">Tech Stack</h2>
-            <div class="row">
-                <div class="col-m-6">
-                    <p>My tech</p>
-                </div>
-                <div class="col-m-6 center">
-                    <img src=""/>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer style="text-align: end; padding-right: 10px;">
         <p>© 2023 By <a href="https://twitter.com/Vince_Windy" title="Vince's Twitter" target="_blank">Windy-LeeV</a>.</p>
     </footer>
 </main>
 
 <script src="static/kico.js"></script>
-<script src="static/paul.js"></script>
+<script src="static/windy.js"></script>
+<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
 
+<!-- VUE component
+<script>
+    // Interaction in tech stack block
+    const tech = new Vue(
+    {
+      el: '#tech',
+      data() {
+        return { 
+            visible: false ,
+            Front: true,
+            Back: false,
+            Unity: false
+        }
+      },
+      methods: {
+        async Fe() {
+            console.log(this.Front, this.Back, this.Unity);
+            
+            this.Back = false;
+            this.Unity = false;
+            await new Promise(resolve => setTimeout(() => {
+                this.Front = true;
+                resolve();
+            }, 500));
+        },
+        async Be() {
+            console.log(this.Front, this.Back, this.Unity);
+            this.Front = false;
+            
+            this.Unity = false;
+            await new Promise(resolve => setTimeout(() => {
+                this.Back = true;
+                resolve();
+            }, 500));
+        },
+        async Un3() {
+            console.log(this.Front, this.Back, this.Unity);
+            this.Front = false;
+            this.Back = false;
+            await new Promise(resolve => setTimeout(() => {
+                this.Unity = true;
+                resolve();
+            }, 500));
+        }
+      },
+    })
+</script> -->
 </body>
 </html>

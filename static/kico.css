@@ -1400,8 +1400,7 @@ img[bk-image=active]{
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
-/* ----
-
-:) Copyright (C) 2018 Binkic Team. Made With ♥ By Paul.
-
----- */
+.General-Img{
+    border-radius: 10px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
